@@ -1,7 +1,7 @@
 
 body {
 	font-family: 'Waiting for the Sunrise', cursive;
-	/*font-weight: bold;*/
+	/*font-family: 'Indie Flower', cursive;*/	
 	color: #4c4c4c;
 }
 
@@ -13,6 +13,8 @@ body {
 .header-breaker {
 	border-bottom: 5px solid #bcbbbb;
 	margin-bottom: 2px;
+/*Never Use Negative Values!!!*/
+	margin-top: -10px;
 }
 
 .extra-light {
@@ -49,7 +51,6 @@ body {
 	}
 }
 
-
 @media only screen and (max-width: 650px) {
 	.name-font {
 		font-size: 36px;
@@ -79,6 +80,14 @@ h1 {
 /*Fix for typed.js padding from bottom to balance with bottom assets.*/
 .wrap {
 	margin-bottom: 20px;
+}
+
+.footer {
+	margin-bottom: 50px;
+}
+
+.footerText {
+	text-align: center;
 }
 
 

@@ -1,6 +1,7 @@
 
 body {
 	font-family: 'Waiting for the Sunrise', cursive;
+	/*font-weight: bold;*/
 	color: #4c4c4c;
 }
 
@@ -44,7 +45,7 @@ body {
 	}
 
 	.udacity-logo {
-		max-width: 100px;
+		max-width: 225px;
 	}
 }
 
@@ -55,7 +56,7 @@ body {
 	}
 
 	.udacity-logo {
-		max-width: 70px;
+		max-width: 175px;
 	}
 
 	p {

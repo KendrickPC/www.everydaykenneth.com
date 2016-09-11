@@ -6,8 +6,9 @@ body {
 }
 
 .udacity-logo {
-	width: 250px;
-	height: 200px;
+	width: 133px;
+	height: 145px;
+	padding-top: 50px;
 }
 
 .header-breaker {
@@ -47,7 +48,8 @@ body {
 	}
 
 	.udacity-logo {
-		max-width: 225px;
+		max-width: 110px;
+		max-height: 127px;
 	}
 }
 
@@ -57,7 +59,8 @@ body {
 	}
 
 	.udacity-logo {
-		max-width: 175px;
+		max-width: 90px;
+		max-height: 115px;
 	}
 
 	p {
@@ -70,7 +73,15 @@ body {
 		font-size: 28px;
 	}
 
+	.udacity-logo {
+		max-width: 70px;
+		max-height: 105px;
+
+	}
+
 }
+
+
 
 /*Fix for NAME padding from top to balance with logo.*/
 h1 {

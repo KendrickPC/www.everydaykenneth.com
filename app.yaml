@@ -1,3 +1,4 @@
+# Begin Basic GAE Setup for hosting a static website
 application: everydaykenneth-142007
 version: 1
 runtime: python
@@ -12,10 +13,6 @@ handlers:
   static_files: robots.txt
   upload: robots.txt 
 # End Basic Setup for GAE
-
-# Begin Font Awesome GAE Setup that didn't work
-
-# End Font Awesome GAE Setup
 
 # Generic Rule goes last and is absolutely necessary
 - url: .*

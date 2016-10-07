@@ -3,31 +3,3 @@ h2 {
 	border-width: 3px;
 }
 
-
-
-
-
-/*Begin homePage factCounter*/
-.stat {
-   margin:150px auto;
-   text-align:center;
-   background-color: pink;
-}
-.highlight {
-   color:#111;
-   padding:20px 0;
-   font-weight:bold;
-   display:block;
-   overflow:hidden;
-   margin-bottom:0;
-   font-size:48px;
-}
-.stat i {
-	color:#f7c221;
-}
-.milestone-details {
-   font-weight:bold;
-   font-size:18px;
-   color:#999;
-}
-/*End homePage factCounter Stylesheet*/

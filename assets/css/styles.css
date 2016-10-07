@@ -12,10 +12,10 @@ body {
 }
 
 .header-breaker {
-	border-bottom: 5px solid #bcbbbb;
+	border-bottom: 3px solid #bcbbbb;
 	margin-bottom: 2px;
 /*Never Use Negative Values!!!*/
-	margin-top: -10px;
+	margin-top: 0px;
 }
 
 .extra-light {
@@ -82,7 +82,9 @@ body {
 }
 
 .container {
-	padding-left: 30px;
+	padding-left: 0px;
+/*choose between 3px to 5px	*/
+	margin-left: 10px;
 }
 
 

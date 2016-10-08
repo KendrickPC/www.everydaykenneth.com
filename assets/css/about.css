@@ -124,8 +124,14 @@ header h1 {
 .cd-timeline-img.cd-sunshine {
   background: #eeeccb;
 }
+.cd-timeline-img.cd-iphone {
+  background: #babbb9;
+}
+.cd-timeline-img.cd-cycling {
+  background: #ea7171;
+}
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #babbb9;
 }
 
 @media only screen and (min-width: 1170px) {

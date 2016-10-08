@@ -1,0 +1,13 @@
+.block {
+	height: 1000px;
+	background: #eeeeee;
+	text-align:center;
+	font-size:30px;
+}
+.count{
+	text-align:center;
+	width:50%;
+	float:left; 
+	padding:30px 0;
+	font-size:30px;
+}

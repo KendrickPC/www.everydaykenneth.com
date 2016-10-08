@@ -35,8 +35,8 @@ var $count2 = $('.second-count');
 
 // Scrolling Functions
 $(window).scroll(function (event) {
-    var first = 1000; // Count up to 100x for first
-    var second = 1000; // Count up to 100x for second
+    var first = 500; // Count up to 25x for first
+    var second = 400; // Count up to 4x for second
     
     function countStuffUp(points, selector, duration) {
         //Animate count
@@ -69,7 +69,7 @@ $(window).scroll(function (event) {
     $(".first-count").each(function (i, el) {
         var el = $(el);
         if (el.visible() && !el.hasClass('counting')) {
-            var duration = el.data('remaining') || 2600;
+            var duration = el.data('remaining') || 5600;
             console.log('duration', duration);
             countStuffUp(first, '.first-count', duration);
         } else if (!el.visible() && el.hasClass('counting')) {

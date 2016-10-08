@@ -4,10 +4,53 @@
 	text-align:center;
 	font-size:30px;
 }
-.count{
+.count {
 	text-align:center;
 	width:50%;
 	float:left; 
 	padding:30px 0;
 	font-size:30px;
 }
+
+.fa-user{
+	text-align:center;
+	width:50%;
+	float:left; 
+	padding:30px 0;
+	font-size:30px;
+}
+
+.fa-coffee{
+	text-align:center;
+	width:50%;
+	float:left; 
+	padding:30px 0;
+	font-size:30px;
+}
+.frustration {
+	text-align: center;
+}
+/*http://freesitetemplate.com/fun-facts-with-jquery/*/
+
+/*.stat {
+   margin:150px auto;
+   text-align:center;
+}
+.highlight {
+   color:#111;
+   padding:20px 0;
+   font-weight:bold;
+   display:block;
+   overflow:hidden;
+   margin-bottom:0;
+   font-size:48px;
+}
+.stat i {
+	color:#f7c221;
+}
+.milestone-details {
+   font-weight:bold;
+   font-size:18px;
+   color:#999;
+}
+*/

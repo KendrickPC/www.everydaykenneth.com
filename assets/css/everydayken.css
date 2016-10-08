@@ -3,3 +3,9 @@ h2 {
 	border-width: 3px;
 }
 
+.carousel {
+	border-style: solid;
+	border-color: #bdb7b7;
+	border-width: 1px;
+	border-radius: 2px;
+}

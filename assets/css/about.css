@@ -128,7 +128,7 @@ header h1 {
   background: #babbb9;
 }
 .cd-timeline-img.cd-cycling {
-  background: #ea7171;
+  background: #f2e954;
 }
 .cd-timeline-img.cd-location {
   background: #babbb9;
@@ -254,7 +254,7 @@ header h1 {
   float: left;
   padding: .8em 0;
   opacity: .7;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 .cd-timeline-content::before {
   content: '';
@@ -277,7 +277,7 @@ header h1 {
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 1.75rem;
   }
 }
 @media only screen and (min-width: 1170px) {

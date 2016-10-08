@@ -1,46 +1,7 @@
-/* -------------------------------- 
-
-Primary style
-
--------------------------------- */
-/*html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.timelineKenneth {
+  background-color: #eeeded;
 }
 
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 100%;
-  font-family: "Droid Serif", serif;
-  color: #7f8c97;
-  background-color: #e9f0f5;
-}
-
-a {
-  color: #acb7c0;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-}
-
-img {
-  max-width: 100%;
-}
-
-h1, h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-}
-*/
-/* -------------------------------- 
-
-Modules - reusable parts of our design
-
--------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
@@ -154,15 +115,19 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
-  background: #75ce66;
+.cd-timeline-img.cd-birth {
+  background: #8ed8e6;
 }
-.cd-timeline-img.cd-movie {
-  background: #c03b44;
+.cd-timeline-img.cd-california {
+  background: #0a9a0a;
+}
+.cd-timeline-img.cd-sunshine {
+  background: #eeeccb;
 }
 .cd-timeline-img.cd-location {
   background: #f0ca45;
 }
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
@@ -267,6 +232,7 @@ header h1 {
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
+  font-size: 1.25rem;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
@@ -282,6 +248,7 @@ header h1 {
   float: left;
   padding: .8em 0;
   opacity: .7;
+  font-size: 1.25rem;
 }
 .cd-timeline-content::before {
   content: '';
@@ -296,11 +263,11 @@ header h1 {
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 2.5rem;
   }
   .cd-timeline-content p {
     font-size: 16px;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
@@ -327,8 +294,8 @@ header h1 {
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 36px;
+    font-size: 3rem;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;

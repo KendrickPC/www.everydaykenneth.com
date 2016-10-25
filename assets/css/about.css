@@ -130,10 +130,20 @@ header h1 {
 .cd-timeline-img.cd-cycling {
   background: #f2e954;
 }
-.cd-timeline-img.cd-location {
+.cd-timeline-img.cd-home {
+  background: #9ec7ff;
+}
+.cd-timeline-img.cd-taiwan {
+  background: #00cbff;
+}
+/*.cd-timeline-img.cd-location {
+  background: #babbb9;
+}.cd-timeline-img.cd-location {
+  background: #babbb9;
+}.cd-timeline-img.cd-location {
   background: #babbb9;
 }
-
+*/
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;

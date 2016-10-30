@@ -83,7 +83,7 @@ body {
 }
 
 .container {
-	padding-left: 0px;
+	padding-left: 3px;
 /*choose between 3px to 5px	*/
 	margin-left: 10px;
 }
@@ -98,6 +98,7 @@ h1 {
 /*Fix for typed.js padding from bottom to balance with bottom assets.*/
 .wrap {
 	margin-bottom: 20px;
+	margin-left: 10px;
 }
 
 .footer {

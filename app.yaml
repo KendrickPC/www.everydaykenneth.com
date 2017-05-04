@@ -12,6 +12,7 @@ handlers:
 - url: /robots.txt
   static_files: robots.txt
   upload: robots.txt 
+
 # End Basic Setup for GAE
 
 # Generic Rule goes last and is absolutely necessary

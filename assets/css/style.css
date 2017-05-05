@@ -27,9 +27,9 @@ img {  max-width:100%;}
 h1, h2, h3, h4, h5, h6 { /*color:#5f636a;*/ color:#ffffff; margin-bottom: 10px;}
 p{ margin-bottom:20px; font-size:12px;}
 p.last, .well.last, .last { margin-bottom:0 !important; }
-a { color:#FFFFFF;}
-a:hover { color:#ece5e5; text-decoration:underline;}
-a:focus { outline:none !important;}
+a { color: #000000;}
+a:hover { color: #3b82b5; text-decoration: underline;}
+a:focus { outline: none !important;}
 
 .italic, italic, i { font-style:italic; }
 .bold, strong, b { font-weight: bold; }

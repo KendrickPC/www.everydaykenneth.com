@@ -1,4 +1,8 @@
-﻿
+﻿.language-select {
+	color: #FFFFFF;
+}
+
+
 /* Body and structure
 -------------------------------------------------- */
 body {
@@ -28,6 +32,7 @@ h1, h2, h3, h4, h5, h6 { /*color:#5f636a;*/ color:#ffffff; margin-bottom: 10px;}
 p{ margin-bottom:20px; font-size:12px;}
 p.last, .well.last, .last { margin-bottom:0 !important; }
 a { color: #000000;}
+.language-select:hover {color:white;}
 a:hover { color: #3b82b5; text-decoration: underline;}
 a:focus { outline: none !important;}
 
@@ -268,80 +273,6 @@ li.sfHover > a > .sf-sub-indicator {
 .social-icons { font-size: 22px; float:left; margin-top:30px; margin-bottom:26px; margin-left: 20px; list-style: none;	}
 .social-icons li { width:29px; height:29px; float:left;  }
 .social-icons a { width:29px; height:29px; display:inline-block; }
-.social-icons .behance { background-position: 0 0; }
-.social-icons .pinterest { background-position: -29px 0; }
-.social-icons .dribbble { background-position: -58px 0; }
-.social-icons .facebook { background-position: -87px 0; }
-.social-icons .google { background-position: -116px 0; }
-.social-icons .skype { background-position: -145px 0; }
-.social-icons .linkedin { background-position: -174px 0; }
-.social-icons .deviant { background-position: -203px 0; }
-.social-icons .twitter-alt { background-position: -232px 0; }
-.social-icons .flickrico { background-position: -261px 0; }
-.social-icons .twitter { background-position: -290px 0; }
-.social-icons .rss { background-position: -319px 0; }
-.social-icons .vimeo { background-position: -348px 0; }
-.social-icons .youtube { background-position: -377px 0; }
-.social-icons .fav { background-position: -406px 0; }
-
-
-.social-icons .behance:hover { background-position: 0 -29px; }
-.social-icons .pinterest:hover { background-position: -29px -29px; }
-.social-icons .dribbble:hover { background-position: -58px -29px; }
-.social-icons .facebook:hover { background-position: -87px -29px; }
-.social-icons .google:hover { background-position: -116px -29px; }
-.social-icons .skype:hover { background-position: -145px -29px; }
-.social-icons .linkedin:hover { background-position: -174px -29px; }
-.social-icons .deviant:hover { background-position: -203px -29px; }
-.social-icons .twitter-alt:hover { background-position: -232px -29px; }
-.social-icons .flickrico:hover { background-position: -261px -29px; }
-.social-icons .twitter:hover { background-position: -290px -29px; }
-.social-icons .rss:hover { background-position: -319px -29px; }
-.social-icons .vimeo:hover { background-position: -348px -29px; }
-.social-icons .youtube:hover { background-position: -377px -29px; }
-.social-icons .fav:hover { background-position: -406px -29px; }
-
-.hovered .social-icons .behance { background-position: 0 -29px; }
-.hovered .social-icons .pinterest{ background-position: -29px -29px; }
-.hovered .social-icons .dribbble{ background-position: -58px -29px; }
-.hovered .social-icons .facebook{ background-position: -87px -29px; }
-.hovered .social-icons .google{ background-position: -116px -29px; }
-.hovered .social-icons .skype{ background-position: -145px -29px; }
-.hovered .social-icons .linkedin{ background-position: -174px -29px; }
-.hovered .social-icons .deviant{ background-position: -203px -29px; }
-.hovered .social-icons .twitter-alt{ background-position: -232px -29px; }
-.hovered .social-icons .flickrico{ background-position: -261px -29px; }
-.hovered .social-icons .twitter{ background-position: -290px -29px; }
-.hovered .social-icons .rss{ background-position: -319px -29px; }
-.hovered .social-icons .vimeo{ background-position: -348px -29px; }
-.hovered .social-icons .youtube{ background-position: -377px -29px; }
-.hovered .social-icons .fav{ background-position: -406px -29px; }
-
-
-/* Twitter
--------------------------------------------------- */
-.header-tweet .tweet { font-style: italic; padding: 28px 0; }
-.header-tweet .tweet a { }
-.header-tweet .tweet_list { list-style: none;	margin: 0; padding: 0; overflow-y: hidden; display: inline-block; }
-.header-tweet .tweet_list .awesome,
-.header-tweet .tweet_list .epic { text-transform: uppercase; }
-.header-tweet .tweet_list li { overflow-y: auto; overflow-x: hidden; display: block; background: url('../img/ico/twitter.png') no-repeat 0px 0px; padding-left: 40px; }
-.header-tweet .tweet_list:hover li { background: url('../img/ico/twitter.png') no-repeat 0px -100px; }
-.header-tweet .tweet_list .tweet_even {		}
-.header-tweet .tweet_list .tweet_odd {  }
-.header-tweet .tweet_list .tweet_avatar { padding-right: .5em; float: left; }
-.header-tweet .tweet_list .tweet_avatar img { vertical-align: middle;	}
-.header-tweet .tweet_list .tweet_time { display:block; }
-.header-tweet .tweet_list .tweet_time a { color:#888; font-style:italic; }
-.header-tweet .tweet_list .tweet_first { padding-top: 0 !important; }
-
-.widget .tweet_list .tweet_even,
-.widget .tweet_list .tweet_odd {
-	border-bottom: 1px solid #5F636A; margin-bottom:10px; padding-bottom:10px; }
-.widget .tweet_list { margin-bottom:0; }
-.widget .tweet_time { display:block; font-size:11px;}
-
-
 
 /* Services
 -------------------------------------------------- */

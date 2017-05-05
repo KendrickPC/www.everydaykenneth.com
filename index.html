@@ -15,6 +15,7 @@
     
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/language.css" rel="stylesheet">
+    <link href="assets/css/typed.css" rel="stylesheet">
 	<!-- end style sheets -->
 	
 	<!--[if lt IE 9]>
@@ -70,13 +71,69 @@
 	<!-- end language selection section -->
 <!-- end top panel section -->
 
+<!-- begin navigation bar -->
+ <div class="row">
+      <div class="span3 logo">
+        <!-- begin logo -->
+        <a href="index.html"><img src="assets/img/eDKLogo.png" alt="" /></a>
+        <!-- end logo -->
+      </div>
+      <div class="span9 navigation">
+        <div id="menu" class="fix-fish-menu clearfix">
+          <ul id="nav" class="sf-menu">
+            <li class="active"><a href="index.html">Home</a>
+            </li>
+			<li> <a href="typography.html">About</a></li>
+            <li> <a href="#">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+		 	<li><a href="contacts.html">Contacts</a></li>
+          </ul>
+          <!-- end #nav  -->
+        </div>
+        <!-- end #menu  -->
+      </div>
+      <!-- navigation -->
+    </div>
+    <!-- row -->
+    <!-- begin line break -->
+    <div class="row">
+      <div class="span3"><div class="border-5-1"></div></div>
+      <div class="span9"><div class="border-5-1 hide-border"></div></div>
+    </div>
+    <!-- end line break -->
+    <!-- begin social media icons -->
+    <div class="row">
+      <div class="span3 clearfix">
+        <ul class="social-icons">
+          <li class="linkedin"><a href="http://linkedin.com"></a></li>
+          <li class="facebook"><a href="http://facebook.com"></a></li>
+          <li class="google"><a href="http://plus.google.com"></a></li>
+          <li class="dribbble"><a href="http://dribbble.com"></a></li>
+	      </ul>
+      </div>
+      <!-- end social media icons -->
+      <!-- begin implementation of typed.js -->
+      <div class="span9 header-tweet">
+        <div class="typedjs"></div>
+      </div>
+      <!-- end implementation of typed.js -->
+    </div>
+    <!-- begin line break -->
+    <div class="row">
+      <div class="span3"><div class="border-1-5"></div></div>
+      <div class="span9"><div class="border-1-5 hide-border"></div></div>
+    </div>
+    <!-- end line break -->
+<!-- end navigation bar -->
+</header>  
+
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="assets/js/jquery.easing.1.3.js"></script>
 	<script src="assets/js/superfish.js"></script>    
-    <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/jcarousel.min.js"></script>    
 	<script src="assets/js/jquery.tweet.js"></script>
 	<script src="assets/js/jflickrfeed.min.js"></script>
@@ -87,21 +144,8 @@
 	<script src="assets/js/respond.min.js"></script>
 
 	<!-- Twitter -->
-	<script>
-	jQuery.noConflict()(function($){
-		  /*---- Header Twitter ----*/
-		  $(".header-tweet .tweet").tweet({
-	        	count: 1,
-	        	username: "zesky",
-	        	loading_text: "loading twitter..."      
-			});
-	});
-	</script>
-
-
+  <!-- Switched out typed.js for twitter feed. -->
 	<script src="assets/js/custom.js"></script>	
-
-
 
 	<!-- For Images Preloading -->
 	<script type="text/javascript">var runFancy = true;</script>
@@ -121,7 +165,10 @@
 	</script>
 	<!-- language menu JS -->
 	<script src="assets/js/scripts.js"></script>
-
+  <!-- begin typed.js implementation -->
+	<script src="assets/js/typed.js"></script>
+	<script src = "assets/js/typedJSStrings.js"></script>
+  <!-- end typed.js implementation -->
 </body>
 </html>
 

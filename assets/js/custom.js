@@ -7,7 +7,7 @@
 			$("<option />", {
 			   "selected": "selected",
 			   "value"   : "",
-			   "text"    : "Go to..."
+			   "text"    : "Navigate to..."
 			}).appendTo("div select");
 				
 				

@@ -260,13 +260,12 @@ li.sfHover > a > .sf-sub-indicator {
 /* Social Icons
 -------------------------------------------------- */
 .social-icons li {
-	background-image:url('../img/ico/socialico.png');
 	background-repeat:no-repeat;
 	cursor: pointer;
 	margin-right: 4px;
 	margin-bottom: 4px;
 }
-.social-icons { float:left; margin-top:30px; margin-bottom:26px; margin-left: 0; list-style: none;	}
+.social-icons { font-size: 22px; float:left; margin-top:30px; margin-bottom:26px; margin-left: 20px; list-style: none;	}
 .social-icons li { width:29px; height:29px; float:left;  }
 .social-icons a { width:29px; height:29px; display:inline-block; }
 .social-icons .behance { background-position: 0 0; }

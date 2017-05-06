@@ -120,7 +120,7 @@ section {
 hr.soften {
   height: 1px;
   margin: 35px 0;
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  /*background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));*/
   background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
   background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
@@ -129,9 +129,9 @@ hr.soften {
 
 
 /* Top Panel */
-#top-panel { background-color: #3b82b5;	height: 20px; position:relative;  }
-#bottom-panel { background-color: #3A3A3A;	margin-top:30px; }
-#bottom-panel span { color: #ccc; font-size:10px; float:right; line-height:30px; margin-right:15px; margin-left:15px; }
+#top-panel { background-color: #3b82b5;	height: 20px; position:relative; border: solid 2px black; }
+#bottom-panel { background-color: #3b82b5;	margin-top:30px; border: solid 2px black;}
+#bottom-panel span { color: white; font-size:10px; float:right; line-height:30px; margin-right:15px; margin-left:15px; }
 #bottom-panel .site-name { float:left; }
 
 .login-button { float:right; font-size:10px; margin-right:15px;}
@@ -276,7 +276,7 @@ li.sfHover > a > .sf-sub-indicator {
 
 /* Services
 -------------------------------------------------- */
-.services, .latest-projects { background-color: #EFEFEF; padding: 15px; border-left: 3px solid black;}
+.services, .latest-projects { background-color: #EFEFEF; padding: 15px; border-left: 2px solid #3b82b5;}
 .services h4, .latest-projects h4 { margin-bottom: 15px; }
 
 
@@ -501,15 +501,15 @@ li.sfHover > a > .sf-sub-indicator {
 .projects-box:hover,
 .thumb-post:hover,
 .thumb:hover
-	{ border-color: #F15A23; }
+	{ border-color: #3b82b5; }
 
 .projects-box:hover .projects-meta,
 .thumb-post:hover .post-date-meta
-	{ background-color:#F15A23; }
+	{ background-color:#3b82b5; }
 	
 .projects-meta,
 .post-date-meta
-	{ width:50px; height:50px; display:block; background-color:#efefef; position: absolute; bottom: 0; right: 0;
+	{ width: 65px; height: 65px; display:block; background-color:#efefef; position: absolute; bottom: 0; right: 0;
 -webkit-border-top-left-radius: 5px;
 -moz-border-radius-topleft: 5px;
 border-top-left-radius: 5px;
@@ -522,8 +522,10 @@ border-top-left-radius: 5px;
  }
 .projects-meta .month,
 .projects-meta .date,
+.projects-meta .year,
 .post-date-meta .month,
-.post-date-meta .date 
+.post-date-meta .date,
+.projects-meta .year
 	{ display:block; color:#555; text-transform:uppercase; font-weight:bold; text-align:center; }
 
 .projects-meta .month,
@@ -532,8 +534,10 @@ border-top-left-radius: 5px;
 
 .projects-box:hover .month,
 .projects-box:hover .date,
+.projects-box:hover .year,
 .thumb-post:hover .month,
-.thumb-post:hover .date 
+.thumb-post:hover .date,
+.thumb-post:hover .year 
 	{ color:#1E2126; }
 
 .projects-box .mask,
@@ -732,7 +736,7 @@ border-top-left-radius: 5px;
 -------------------------------------------------- */
 .footer {}
 
-.footer-widgets { background-color:#3A3A3A; }
+.footer-widgets { background-color: #3b82b5;}
 .footer .widget { float: left; width: 260px; margin: 30px 15px 30px 15px; }
 .footer .widget li a { color:#ccc; }
 .footer address { display: inline-block; margin-bottom: 0; font-style: normal; line-height: inherit; }
@@ -747,7 +751,7 @@ border-top-left-radius: 5px;
 .widget .popular-posts .date, .widget .latest-posts .date { color:#888; display:block; }
 .widget .popular-posts li:last-child { margin-bottom:0; padding-bottom:0; }
 
-.logo-footer.widget { background-color:#3A3A3A; padding: 30px 15px; float: none; width: auto; margin: 0;}
+.logo-footer.widget { background-color:#3b82b5; padding: 30px 15px; float: none; width: auto; margin: 0;}
 .logo-footer img { margin-bottom:20px; }
 
 
@@ -1123,8 +1127,8 @@ h5 .label-colored { color: #EFEFEF; }
 		.logo-footer.widget { width: 136px; }
 		.jcarousel-skin-tango .jcarousel-prev-horizontal { left: 20px; top: 114px; }
 		.jcarousel-skin-tango .jcarousel-next-horizontal { right: 0px; top: 114px; }
-		.projects-meta .date, .projects-meta .month { font-size:11px;}
-		.projects-meta { width: 40px; height: 40px;}
+		.projects-meta .date, .projects-meta .month .projects-meta .year { font-size:11px;}
+		.projects-meta { width: 40px; height: 62px;}
 				
 		.carousel-box .quartercircletopleft-mask { left:38px; top:82px; }
 		.carousel-box .quartercircletopright-mask { left:98px; top:82px; }

@@ -467,7 +467,7 @@
 		// shuffle the strings
 		shuffle: false,
 		// time before backspacing
-		backDelay: 1500,
+		backDelay: 2000,
 		// Fade out instead of backspace
 		fadeOut: false,
 		fadeOutClass: 'typed-fade-out',

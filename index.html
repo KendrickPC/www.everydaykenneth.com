@@ -11,7 +11,9 @@
 	<!-- begin style sheets -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="assets/css/instagrid.css" rel="stylesheet">
+    <!-- <link href="assets/css/prettyPhoto.css" rel="stylesheet"> -->
+
     
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/language.css" rel="stylesheet">
@@ -415,17 +417,17 @@
       <li>
         <a href="#"><img src="assets/img/blog/widgets/img01-40x40.jpg" alt="" /></a>
         <a href="#">Artistic Wormhole</a>
-        <span class="date">June 24, 2012</span>
+        <span class="date">June 24, 2016</span>
       </li>
       <li>
         <a href="#"><img src="assets/img/blog/widgets/img02-40x40.jpg" alt="" /></a>
         <a href="#">Incredible Alcatraz</a>
-        <span class="date">June 22, 2012</span>
+        <span class="date">June 22, 2016</span>
       </li>
       <li>
         <a href="#"><img src="assets/img/blog/widgets/img03-40x40.jpg" alt="" /></a>
         <a href="#">Miniature Cathedral of Trier</a>
-        <span class="date">May 09, 2012</span>
+        <span class="date">May 09, 2016</span>
       </li>
     </ul>
     </div><!-- .widget -->
@@ -436,24 +438,43 @@
       <li>
         <a href="#"><img src="assets/img/blog/widgets/img04-40x40.jpg" alt="" /></a>
         <a href="#">Who's Boss here</a>
-        <span class="date">Jule 02, 2012</span>     
+        <span class="date">Jule 02, 2016</span>     
       </li>
       <li>
         <a href="#"><img src="assets/img/blog/widgets/img01-40x40.jpg" alt="" /></a>
         <a href="#">Artistic Wormhole</a>
-        <span class="date">June 24, 2012</span>
+        <span class="date">June 24, 2016</span>
       </li>
       <li>
         <a href="#"><img src="assets/img/blog/widgets/img05-40x40.jpg" alt="" /></a>
-        <a href="#">Flickr Eggs</a>
-        <span class="date">May 14, 2012</span>
+        <a href="#">Instagram Eggs</a>
+        <span class="date">May 14, 2016</span>
       </li>
     </ul>
     </div><!-- .widget -->
 
+
+
+<!-- begin instagram test -->
+  <script src="assets/js/instagram.js"></script>    
+    <script type='text/javascript'> 
+    var feed=new ody({get:"user",
+      limit: 9,
+
+      resolution:"standard_resolution",
+      template:'<li><a href="{{link}}" target="_blank" style="background-image:url({{image}});background-size: cover;"><img src="https://lh3.googleusercontent.com/-P-gOTAfNfZ4/V2RPSYvECxI/AAAAAAAABng/Efqy2Oxjqm4lrmDhT07PBtlgYRb_MlJ7QCCo/s576/questyerror.png"></img><div class="instagrid-z"><div class="instagrids"><span class="instagrid-outter">{{likes}} <i class="fa fa-heart"></i><br/>{{comments}} <i class="fa fa-comment"></i></span></div></div></a></li>',
+
+    userId:17422571,
+    accessToken:"17422571.429bd15.2cb8446709864e4980c017ff0ffb5672"
+    });feed.run();
+    </script>
+<!-- end instagram test -->
+
+
     <div class="widget">
-      <h5>Flickr Photos</h5>
-      <ul class="flickr thumbs"></ul>
+      <h5>Instagram</h5>
+      <!-- <ul class="flickr thumbs"></ul> -->
+      <ul id='ody'></ul>
     </div><!-- .widget -->
     
     </div>
@@ -485,7 +506,8 @@
     <!-- Support CSS3 Media Queries for IE 6-8 -->
 	<script src="assets/js/respond.min.js"></script>
 
-	<!-- Twitter -->
+
+
   <!-- Switched out typed.js for twitter feed. -->
 	<script src="assets/js/custom.js"></script>	
 

@@ -1,3 +1,4 @@
-User-agent: *
-Disallow: /
-Allow: /main
+# robotstxt.org/
+
+User-agent: * 
+Disallow:

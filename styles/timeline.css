@@ -96,11 +96,11 @@ Main components
   z-index: 1;
 }
 .cd-timeline-img.cd-movie {
-  background: #c03b44;
+  background: #3bb4c0;
   z-index: 1000;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #d391f5;
   z-index: 1;
 }
 @media only screen and (min-width: 1170px) {
@@ -235,7 +235,7 @@ Main components
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 20px;
     font-size: 1.25rem;
   }

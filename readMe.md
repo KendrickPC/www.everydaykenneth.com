@@ -11,3 +11,6 @@ http://stackoverflow.com/questions/29208659/font-awesome-not-show-in-google-app-
 
 IG API Call uses tag line 'ODY'
 
+
+
+Blue COLOR: #3b82b5

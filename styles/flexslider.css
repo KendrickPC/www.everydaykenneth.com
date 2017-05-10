@@ -52,7 +52,7 @@ html[xmlns] .slides {display: block;}
 
 
 /* Direction Nav */
-.flex-direction-nav a {width: 25px; height: 25px; margin: -20px 0 0; display: block; background: #efefef url('../img/ico/arrows.png') no-repeat 0px 0px; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; opacity: 0;  }
+.flex-direction-nav a {width: 25px; height: 25px; margin: -20px 0 0; display: block; background: #efefef url('/images/ico/arrows.png') no-repeat 0px 0px; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; opacity: 0;  }
 .flex-direction-nav .flex-next {background-position: -25px 0; right: -2px; -webkit-transition: opacity .3s ease; border: 1px solid #EEE; border: 1px solid rgba(0, 0, 0, 0.05); /*border: 1px solid #1E2126;*/ border-right:none; }
 .flex-direction-nav .flex-prev {left: -2px; -webkit-transition: opacity .3s ease; border: 1px solid #EEE; border: 1px solid rgba(0, 0, 0, 0.05); border-left:none;}
 .flexslider:hover .flex-next {opacity: 1; }

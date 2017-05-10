@@ -1,234 +1,857 @@
-<!doctype html>
+<!DOCTYPE HTML>
+<!-- A Color Theme design by ZERGE (http://www.color-theme.com) -->
+
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-
-<link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,200">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/everydayken.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/bootstrap-social.css">
-<!-- Blog CSS -->
-<link rel="stylesheet" href="css/blog.css">
-<!-- Google Fonts -->
-<!-- Two Font families selected: Indie Flower and Waiting for the Sunrise Pairing -->
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Waiting+for+the+Sunrise" rel="stylesheet">
-<!-- End Font List -->
     <title>EveryDayKenneth</title>
-    <!-- jQuery library CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Typed.js Links -->
-    <script src="js/typed.js">
-    </script>
-    <script src="js/type.js">
-    </script>
-    <!-- Latest compiled JavaScript -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</head>
-<body>
+	<meta name="author" content="EveryDayKenneth">
+	 <meta name="keywords" content="EveryDayKenneth, portfolio, developer, full stack">
+	<meta name="description" content="Personal Portfolio Site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-4">
-                <img class="udacity-logo" src="images/udacity-logo2.svg" alt="EveryDayKenneth Logo">
-            </div>
-            <div  class="col-xs-8 text-right text-uppercase">
-                <h1 class="extra-light name-font">Kenneth P. Chang</h1>
-                <h4>Front-end Web Developing Jedi</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <hr class="header-breaker">
-            </div>
-        </div>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/typed.css">    
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+   	<link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/bootstrap-responsive.css" rel="stylesheet">
+    <link href="styles/prettyPhoto.css" rel="stylesheet">    
+    <link href="styles/flexslider.css" rel="stylesheet">
 
-        <div class="wrap">
-            <h2 class="h2">The EveryDayKenneth Blog</h2>
-            <div class="type-wrap">
-                <div id="typed-strings">
-                    <span>Remember the days of Xanga blogging in 2002???</span>
-                    <span>And Facebook blogging in 2007???</span>
-                    <p>Well here is another blog life in Taipei, Taiwan.</p>
-                    <p>Writing is therapeutic for me so... Welcome! =)</p>
-                </div><span id="typed" style="white-space:pre;"></span>
-            </div>
-        </div>
-<!-- Start Navbar -->
-      <div class="row">
-  <div class="col-md-12">
+    <link href="styles/style.css" rel="stylesheet">
+    
+    <!-- Fav and touch icons -->
+    <style type="text/css">
+	.auto-style1 {
+		width: 100%;
+		zoom: 1;
+		text-align: right;
+	}
+	</style>
 
-<nav class="navbar navbar-default" style="margin-top: 2px;">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="index.html">EveryDayKenneth</a>
+    <script src="scripts/modernizr.js"></script>
+    <script src="scripts/ajax-jquery-1.7.2.min.js"></script>    
+  </head>
+
+  <body>
+  <div class="container">
+
+  <header>
+<!-- begin top panel section -->
+  <!-- begin language selection section -->
+    <!-- Top Panel
+    ================================================== -->
+    <div id="top-panel">
+      <div class="login-box">
+        <form>
+      <div class="input-prepend">
+        <h5>English</h5>
+          </div>
+      <div class="input-prepend">
+        <h5>中文</h5>
+          </div>
+      <div class="input-prepend">
+        <h5>Español</h5>
+          </div>
+        </form>
+      </div>
+      <!-- login-box -->
+        <div class="login-button toggle">
+          <a href="#" class="language-select">Select Language</a>
+        </div>
     </div>
+  <!-- end language selection section -->
+<!-- end top panel section -->
 
-<div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-          <li><a href="aboutMe.html">About Me</a></li> 
-        <!-- <li class="active"><a href="#">About Me</a></li> -->
-            <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio Projects
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-          <li><a href="#">Project 1</a></li>
-          <li><a href="#">Project 2</a></li>
-          <li><a href="#">Project 3</a></li> 
+<!-- begin navigation bar -->
+ <div class="row">
+      <div class="span3 logo">
+        <!-- begin logo -->
+        <a href="index.html"><img src="images/eDKLogo.png" alt="EveryDayKenneth Logo" /></a>
+        <!-- end logo -->
+      </div>
+      <div class="span9 navigation">
+        <div id="menu" class="fix-fish-menu clearfix">
+          <ul id="nav" class="sf-menu">
+            <li><a href="index.html">Home</a>
+            </li>
+      <li> <a href="about.html">About</a></li>
+            <li> <a href="portfolio.html">Portfolio</a></li>
+            <li class="active"><a href="blog.html">Blog</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+          <!-- end #nav  -->
+        </div>
+        <!-- end #menu  -->
+      </div>
+      <!-- navigation -->
+    </div>
+    <!-- row -->
+    <!-- begin line break -->
+    <div class="row">
+      <div class="span3"><div class="border-5-1"></div></div>
+      <div class="span9"><div class="border-5-1 hide-border"></div></div>
+    </div>
+    <!-- end line break -->
+    <!-- begin social media icons -->
+    <div class="row">
+      <div class="span3 clearfix">
+        <ul class="social-icons">
+        	<div class="colorfy">
+          <a href="https://github.com/" target="_blank"><li><i class="fa fa-github" aria-hidden="true"></i></li></a>
+          <a href="https://www.linkedin.com/" target="_blank"><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+          <a href="https://www.facebook.com/" target="_blank"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
+          <a href="https://plus.google.com/" target="_blank"><li><i class="fa fa-google-plus" aria-hidden="true"></i></li></a>
+          <a href="https://dribbble.com/" target="_blank"><li><i class="fa fa-dribbble" aria-hidden="true"></i></li></a>  
+          <a href="https://flickr.com/" target="_blank"><li><i class="fa fa-flickr" aria-hidden="true"></i></li></a>
+          <a href="https://instagram.com/" target="_blank"><li><i class="fa fa-instagram" aria-hidden="true"></i></li></a> 
+        	</div>
+        </ul>
+      </div>
+      <!-- end social media icons -->
+      <!-- begin implementation of typed.js -->
+      <div class="span9 header-tweet">
+        <div class="typedjs"></div>
+      </div>
+      <!-- end implementation of typed.js -->
+    </div>
+    <!-- begin line break -->
+    <div class="row">
+      <div class="span3"><div class="border-1-5"></div></div>
+      <div class="span9"><div class="border-1-5 hide-border"></div></div>
+    </div>
+    <!-- end line break -->
+<!-- end navigation bar -->
+</header>  
+
+
+
+<!-- Begin blog posts -->
+    <div class="row entry-blog">
+	  <div class="span9">
+	  
+    	<!-- begin latest post -->
+	    <div class="row entry-post">
+  	      <div class="span3">
+	        <div class="entry-meta clearfix">
+	          <span><strong><i class="icon-user"></i> Author:</strong> <a href="#">Kennneth Chang</a></span>
+	          <span><strong><i class="icon-list-alt"></i> Category:</strong> <a href="#">Basketball</a>, <a href="#">Golden State Warriors</a></span>	      
+	          <span><strong><i class="icon-tags"></i> Tags:</strong></span>
+	          <ul class="tags clearfix">
+      	        <li><a href="#">basketball</a></li>
+	            <li><a href="#">sports</a></li>
+	            <li><a href="#">golden state warriors</a></li>
+			    <li><a href="#">playoffs</a></li>
+	            <li><a href="#">nba</a></li>			
+		      </ul>
+	        </div>
+	      </div>
+	  
+	      <!-- POST FORMAT - IMAGE -->
+	      <div class="span6">
+	        <div class="row">
+	          <div class="span6 format-image">
+	            <div class="thumb-post view">
+	              <img src="images/blog/golden-state-warriors-2017.jpg" alt="Golden State Warriors 2017" />
+	              <div class="mask">
+			        <div class="mask-icon">
+			    	  <div class="quartercircletopleft-mask"><a href="blogPosts/blog-post-05-12-2017.html"></a></div>
+			    	  <div class="quartercircletopright-mask"><a href="blogPosts/blog-post-05-12-2017.html"></a></div>
+			    	  <div class="quartercirclebottomright-mask"><a href="blogPosts/blog-post-05-12-2017.html"></a></div>
+			    	  <div class="quartercirclebottomleft-mask"><a href="blogPosts/blog-post-05-12-2017.html"></a></div>
+			    	  <a href="blogPosts/blog-post-05-12-2017.html" class="link-icon"></a>
+				    </div><!-- mask-icon -->
+				  </div><!-- mask -->
+	              <div class="post-date-meta">
+                	<span class="month">May</span>
+              		<span class="date">12</span>
+              		<span class="year">2017</span>
+            	  </div><!-- post-date-meta -->
+	        	</div><!-- thumb-post -->
+	        	<div class="entry-text">
+				  <h3><a href="blogPosts/blog-post-05-12-2017.html">The Golden State Warriors 2017</a></h3>	        	  
+	        	  <p>This team is ridiculously stacked.</p>
+	        	  <a class="btn" href="blogPosts/blog-post-05-12-2017.html">Read more</a>
+	        	</div><!-- entry-text -->
+	          </div><!-- span6 -->
+	        </div><!-- row -->
+	      </div><!-- span6 -->
+	    </div><!-- row -->
+	    
+	    <!-- DIVIDER -->
+      	<div class="row margin40">
+      	  <div class="span3"><div class="border-5-1"></div></div>
+      	  <div class="span6"><div class="border-5-1 hide-border"></div></div>
+    	</div><!-- row -->
+  	 	<!-- end latest post -->
+
+		<!-- ============================================================================================= -->
+
+    	<!-- START POST #2 -->
+	    <div class="row entry-post">
+  	      <div class="span3">
+	        <div class="entry-meta clearfix">
+	          <span><strong><i class="icon-user"></i> Author:</strong> <a href="#">Harold</a></span>
+	          <span><strong><i class="icon-comment"></i> Comments:</strong> <a href="#">7</a></span>
+	          <span><strong><i class="icon-list-alt"></i> Category:</strong> <a href="#">Design</a>, <a href="#">Graphic</a></span>	      
+	          <span><strong><i class="icon-tags"></i> Tags:</strong></span>
+	          <ul class="tags clearfix">
+      	        <li><a href="#">battle</a></li>
+	            <li><a href="#">speed</a></li>
+	            <li><a href="#">brand</a></li>			
+		      </ul>
+	        </div><!-- entry-meta -->
+	      </div><!-- span3 -->
+	  
+	      <!-- POST FORMAT - IMAGE -->
+	      <div class="span6">
+	        <div class="row">
+	          <div class="span6 format-image">
+	            <div class="thumb-post view">
+	              <img src="images/blog/img02.jpg" alt="" />
+	              <div class="mask">
+			        <div class="mask-icon">
+			    	  <div class="quartercircletopleft-mask"><a href="#"></a></div>
+			    	  <div class="quartercircletopright-mask"><a href="#"></a></div>
+			    	  <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+			    	  <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+			    	  <a href="blog-post.html" class="link-icon"></a>
+				    </div><!-- mask-icon -->
+				  </div><!-- mask -->
+	              <div class="post-date-meta">
+                	<span class="month">July</span>
+              		<span class="date">02</span>
+            	  </div><!-- post-date-meta -->
+	        	</div><!-- thumb-post -->
+	        	<div class="entry-text">
+	        	  <h3><a href="blog-post.html">My Brand if Faster</a></h3>
+	        	  <p>Vestibulum vitae tellus a turpis accumsan egestas et non nulla. Phasellus lacinia semper aliquam. Proin ipsum enim, fringilla quis vulputate ut, auctor vestibulum magna. Phasellus non eros vel dui ornare pulvinar. Proin eget magna et orci pellentesque rutrum et at turpis. Nam ut turpis eget odio varius rhoncus.</p>
+	        	  <a class="btn" href="blog-post.html">Read more</a>
+	        	</div><!-- entry-text -->
+	          </div><!-- span6 -->
+	        </div><!-- row -->
+	      </div><!-- span6 -->
+	    </div><!-- row -->
+	    
+	    <!-- DIVIDER -->
+      	<div class="row margin40">
+      	  <div class="span3"><div class="border-5-1"></div></div>
+      	  <div class="span6"><div class="border-5-1 hide-border"></div></div>
+    	</div><!-- row -->
+  	 	<!-- END POST #2 -->
+
+		<!-- ============================================================================================= -->
+
+    	<!-- START POST #3 -->
+	    <div class="row entry-post">
+  	      <div class="span3">
+	        <div class="entry-meta clearfix">
+	          <span><strong><i class="icon-user"></i> Author:</strong> <a href="https://vimeo.com/doren">Daniel Doren</a></span>
+	          <span><strong><i class="icon-comment"></i> Comments:</strong> <a href="#">17</a></span>
+	          <span><strong><i class="icon-list-alt"></i> Category:</strong> <a href="#">Video</a>, <a href="#">Envato</a></span>	      
+	          <span><strong><i class="icon-tags"></i> Tags:</strong></span>
+	          <ul class="tags clearfix">
+      	        <li><a href="#">video</a></li>
+	            <li><a href="#">movie</a></li>
+	            <li><a href="#">envato</a></li>
+	            <li><a href="#">tablet</a></li>
+	            <li><a href="#">phone</a></li>
+		      </ul>
+	        </div><!-- entry-meta -->
+	      </div><!-- span3 -->
+	  
+	      <!-- POST FORMAT - VIDEO -->
+	      <div class="span6">
+	        <div class="row">
+	          <div class="span6 format-video">
+	            <div class="thumb-post view">
+	              <iframe src="http://player.vimeo.com/video/27643876?title=0&amp;byline=0&amp;portrait=0&amp;color=FFFC00" height="318"></iframe>
+	              <div class="post-date-meta">
+                	<span class="month">June</span>
+              		<span class="date">27</span>
+            	  </div><!-- post-date-meta -->
+	        	</div><!-- thumb-post -->
+	        	<div class="entry-text">
+	        	  <h3><a href="blog-post.html">Phone &amp; Tablet Ad</a></h3>
+	        	  <p>This project is great for advertising your app, website and portfolio in a clean and elegant way and very easy to customize.</p>
+	        	  <strong>Features:</strong>
+	        	  <ul>
+        			<li>Change color of background, the phone and tablet has an alpha channel.</li>
+        			<li>Text animations are automated, drag &amp; drop your graphics inside the iDevices screen.</li>
+        			<li>2D and 3D text placeholders.</li>
+        			<li>Change the placement of text easily.</li>
+        			<li>Video length 0:55sec</li>
+        			<li>HD 1920×1080 @ 30fps</li>
+        			<li>Easy to render.</li>
+      			  </ul>
+      			  <p><i class="icon-shopping-cart"></i> <a href="http://videohive.net/item/phone-tablet-advertisement/476973?ref=zerge">Available at VideoHive</a></p>
+	        	  <a class="btn" href="blog-post.html">Read more</a>
+	        	</div><!-- entry-text -->
+	          </div><!-- span6 -->
+	        </div><!-- row -->
+	      </div><!-- span6 -->
+	    </div><!-- row -->
+	    
+	    <!-- DIVIDER -->
+      	<div class="row margin40">
+      	  <div class="span3"><div class="border-5-1"></div></div>
+      	  <div class="span6"><div class="border-5-1 hide-border"></div></div>
+    	</div><!-- row -->
+  	 	<!-- END POST #3 -->
+  	 	
+
+		<!-- ============================================================================================= -->
+
+
+    	<!-- START POST #4 SLIDESHOW -->
+	    <div class="row entry-post">
+  	      <div class="span3">
+	        <div class="entry-meta clearfix">
+	          <span><strong><i class="icon-user"></i> Author:</strong> <a href="#">ZERGE</a></span>
+	          <span><strong><i class="icon-comment"></i> Comments:</strong> <a href="#">27</a></span>
+	          <span><strong><i class="icon-list-alt"></i> Category:</strong> <a href="#">Slideshow</a></span>	      
+	          <span><strong><i class="icon-tags"></i> Tags:</strong></span>
+	          <ul class="tags clearfix">
+      	        <li><a href="#">slideshow</a></li>
+	            <li><a href="#">photo</a></li>
+	            <li><a href="#">slider</a></li>
+	            <li><a href="#">flex</a></li>
+		      </ul>
+	        </div><!-- entry-meta -->
+	      </div><!-- span3 -->
+	  
+	      <!-- POST FORMAT - SLIDESHOW -->
+	      <div class="span6">
+	        <div class="row">
+	          <div class="span6 format-slideshow">
+	            <div class="thumb-post view">
+				  <div class="blog-slider flexslider clearfix">
+        			<ul class="slides">
+          			  <li>
+            			<img src="images/blog/img03.jpg" alt="" />
+          			  </li>
+          			  <li>
+            			<img src="images/blog/img02.jpg" alt="" />
+          			  </li>
+          			  <li>
+            			<img src="images/blog/img01.jpg" alt="" />
+          			  </li>
+          			  <li>
+            			<img src="images/blog/img05.jpg" alt="" />
+          			  </li>
+    				  <li>
+      				    <img src="images/blog/img04.jpg" alt="" />
+    				  </li>
+    				  <li>
+      				    <img src="images/blog/img06.jpg" alt="" />
+    				  </li>
+        			</ul>
+      			  </div><!-- blog-slider -->
+	              <div class="post-date-meta">
+                	<span class="month">July</span>
+              		<span class="date">02</span>
+            	  </div><!-- post-date-meta -->
+	        	</div><!-- thumb-post -->
+				<div class="blog-carousel flexslider">
+				  <ul class="slides">
+    				<li>
+      				  <img src="images/blog/img03.jpg" alt="" />
+    				</li>
+    				<li>
+      				  <img src="images/blog/img02.jpg" alt="" />
+    				</li>
+    				<li>
+      				  <img src="images/blog/img01.jpg" alt="" />
+    				</li>
+    				<li>
+      				  <img src="images/blog/img05.jpg" alt="" />
+    				</li>
+    				<li>
+      				  <img src="images/blog/img04.jpg" alt="" />
+    				</li>
+    				<li>
+      				  <img src="images/blog/img06.jpg" alt="" />
+    				</li>
+				  </ul>
+				</div><!-- carousel -->
+	        	<div class="entry-text">
+	        	  <h3><a href="blog-post.html">Slideshow Post Format</a></h3>
+	        	  <p>Vestibulum vitae tellus a turpis accumsan egestas et non nulla. Phasellus lacinia semper aliquam. Proin ipsum enim, fringilla quis vulputate ut, auctor vestibulum magna. Phasellus non eros vel dui ornare pulvinar. Proin eget magna et orci pellentesque rutrum et at turpis. Nam ut turpis eget odio varius rhoncus.</p>
+	        	  <a class="btn" href="blog-post.html">Read more</a>
+	        	</div><!-- entry-text -->
+	          </div><!-- span6 -->
+	        </div><!-- row -->
+	      </div><!-- span6 -->
+	    </div><!-- row -->
+	    
+	    <!-- DIVIDER -->
+      	<div class="row margin40">
+      	  <div class="span3"><div class="border-5-1"></div></div>
+      	  <div class="span6"><div class="border-5-1 hide-border"></div></div>
+    	</div><!-- row -->
+  	 	<!-- END POST #4 -->
+
+
+		<!-- ============================================================================================= -->
+
+
+    	<!-- START POST #5 AUDIO -->    	
+	    <div class="row entry-post">
+  	      <div class="span3">
+	        <div class="entry-meta clearfix">
+	          <span><strong><i class="icon-user"></i> Author:</strong> <a href="#">juliobashmoremusic</a></span>
+	          <span><strong><i class="icon-comment"></i> Comments:</strong> <a href="#">87</a></span>
+	          <span><strong><i class="icon-list-alt"></i> Category:</strong> <a href="#">Music</a>, <a href="#">Audio</a></span>	      
+	          <span><strong><i class="icon-tags"></i> Tags:</strong></span>
+	          <ul class="tags clearfix">
+      	        <li><a href="#">audio</a></li>
+	            <li><a href="#">soundcloud</a></li>
+	            <li><a href="#">music</a></li>
+	            <li><a href="#">love</a></li>
+	            <li><a href="#">bobby womack</a></li>
+		      </ul>
+	        </div><!-- entry-meta -->
+	      </div><!-- span3 -->
+	  
+	      <!-- POST FORMAT - QUOTE -->
+	      <div class="span6">
+	        <div class="row">
+	          <div class="span6 format-audio">
+	        	<div class="entry-text">
+				  <iframe height="166" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F52751498&amp;auto_play=false&amp;show_artwork=true&amp;color=921529"></iframe>
+				  <h3><a href="blog-post.html">Post with Embeded Audio</a></h3>
+				  <p>Bobby Womack is set to release 'The Bravest Man In The Universe' a brand new album on 11th June 2012 in the UK/12th in the US.</p>
+	        	</div><!-- entry-text -->
+	          </div><!-- span6 -->
+	        </div><!-- row -->
+	      </div><!-- span6 -->
+	    </div><!-- row -->
+	    
+	    <!-- DIVIDER -->
+      	<div class="row margin40">
+      	  <div class="span3"><div class="border-5-1"></div></div>
+      	  <div class="span6"><div class="border-5-1 hide-border"></div></div>
+    	</div><!-- row -->
+  	 	<!-- END POST #5 -->
+
+
+		<!-- ============================================================================================= -->
+
+
+    	<!-- START POST #6 QUOTE -->    	
+	    <div class="row entry-post">
+  	      <div class="span3">
+	        <div class="entry-meta clearfix">
+	          <span><strong><i class="icon-user"></i> Author:</strong> <a href="#">ZERGE</a></span>
+	          <span><strong><i class="icon-comment"></i> Comments:</strong> <a href="#">1</a></span>
+	          <span><strong><i class="icon-list-alt"></i> Category:</strong> <a href="#">Quote</a></span>	      
+	          <span><strong><i class="icon-tags"></i> Tags:</strong></span>
+	          <ul class="tags clearfix">
+      	        <li><a href="#">quote</a></li>
+	            <li><a href="#">copyright</a></li>
+		      </ul>
+	        </div><!-- entry-meta -->
+	      </div><!-- span3 -->
+	  
+	      <!-- POST FORMAT - QUOTE -->
+	      <div class="span6">
+	        <div class="row">
+	          <div class="span6 format-video">
+	        	<div class="entry-text">
+				  <h3><a href="blog-post.html">Quote</a></h3>
+	        	  <blockquote cite="http://amour-discipline.org/zine/how-the-copyright-industry-drives-a-big-brother-dystopia/">
+	        	    <p>All too often I hear that the copyright industry doesn’t understand the Internet, doesn’t understand the net generation, doesn’t understand how technology has changed.</p>
+  					<small>Rick Falkvinge</small>
+	        	  </blockquote>
+	        	</div><!-- entry-text -->
+	          </div><!-- span6 -->
+	        </div><!-- row -->
+	      </div><!-- span6 -->
+	    </div><!-- row -->
+	    
+	    <!-- DIVIDER -->
+      	<div class="row margin40">
+      	  <div class="span3"><div class="border-5-1"></div></div>
+      	  <div class="span6"><div class="border-5-1 hide-border"></div></div>
+    	</div><!-- row -->
+  	 	<!-- END POST #6 -->
+
+	    <!-- PAGINATION  -->
+       	<div class="row margin40">
+      	  <div class="span3"><p></p></div>
+      	  <div class="span6">
+      	    <div class="pagination">
+              <ul>
+                <li><a href="#"></a></li>
+            	<li class="active"><a href="#">1</a></li>
+            	<li><a href="#">2</a></li>
+            	<li><a href="#">3</a></li>
+            	<li><a href="#">4</a></li>
+            	<li class="disabled"><a href="#">...</a></li>
+            	<li><a href="#">10</a></li>
+            	<li><a href="#"></a></li>
+          	  </ul>
+        	</div><!-- pagination -->
+      	  </div><!-- span6 -->
+    	</div><!-- row -->
+
+	  </div><!-- span9 -->
+
+
+  
+<!-- Begin right sidebar -->
+      <div class="span3 sidebar">
+	    <!-- About -->
+        <div class="widget well">
+
+          <p class="last">This is the EveryDayKenneth blog about anything that randomly pops into my mind. Hopefully, you'll find some good reads in here. Adios.</p>
+		</div><!-- .widget -->
+
+		<!-- Categories -->
+        <div class="widget widget-list well">
+          <ul class="nav nav-list">
+          <li><a href="index.html"><i class="icon-list-alt"></i> Home</a></li>
+          <li><a href="about.html"><i class="icon-list-alt"></i> About</a></li>
+          <li><a href="portfolio.html"><i class="icon-list-alt"></i> Portfolio</a></li>
+          <li><a href="contacts.html"><i class="icon-list-alt"></i> Contacts</a></li>
+        </ul>
+        </div><!-- widget -->
+
+		<!-- Popular Posts -->
+	    <div class="widget well">
+	      <h5>Popular Posts</h5>
+		  <ul class="popular-posts">
+		    <li>
+		      <a href="#"><img src="images/blog/widgets/img01-40x40.jpg" alt="" /></a>
+		      <a href="#">Domino Theory</a>
+		      <span class="date">June 24, 2012</span>
+		    </li>
+		    <li>
+		      <a href="#"><img src="images/blog/widgets/img02-40x40.jpg" alt="" /></a>
+		      <a href="#">Crossing Paths</a>
+		      <span class="date">June 22, 2012</span>
+		    </li>
+		    <li>
+		      <a href="#"><img src="images/blog/widgets/img03-40x40.jpg" alt="" /></a>
+		      <a href="#">Corporate Equality Index</a>
+		      <span class="date">May 09, 2012</span>
+		    </li>
+		  </ul>
+	    </div><!-- widget -->
+	    
+	    <!-- Popular tags -->
+        <div class="widget well">
+          <h5>Popular tags</h5>
+		  <ul class="tags clearfix">
+      	    <li><a href="#">quote</a></li>
+	        <li><a href="#">copyright</a></li>
+	        <li><a href="#">brand</a></li>
+	        <li><a href="#">tag</a></li>
+	        <li><a href="#">design</a></li>
+	        <li><a href="#">graphics</a></li>
+	        <li><a href="#">battle</a></li>
+	        <li><a href="#">envato</a></li>
+		  </ul>
+          <small><a href="#">View all tags</a></small>
+		</div><!-- .widget -->
+		
+		<!-- Tabbed widget -->
+        <div class="widget well">
+          <h5>Tabbed widget</h5>
+		  <p><em>Bring your tabs to life with a simple plugin to toggle between content via tabs. Bootstrap integrates tabbable tabs in four styles: top (default), right, bottom, and left.</em></p>
+		  <div class="tabbable">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab1" data-toggle="tab">Section</a></li>
+              <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+              <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
             </ul>
-          </li>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab1">
+                <p class="last">Donec venenatis blandit consequat. Vivamus placerat condimentum ligula, adipiscing luctus dolor adipiscing non. Suspendisse dictum porta lorem, ac iaculis nisl porttitor at.</p>
+              </div><!-- tab-pane -->
+              <div class="tab-pane" id="tab2">
+                <ul class="nav nav-list">
+          		  <li class="nav-header">List header</li>
+          		  <li class="active"><a href="#"><i class="icon-white icon-home"></i> Home</a></li>
+          		  <li><a href="#"><i class="icon-book"></i> Library</a></li>
+          		  <li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
+          		  <li class="nav-header">Another list header</li>
+          		  <li><a href="#"><i class="icon-user"></i> Profile</a></li>
+          		  <li><a href="#"><i class="icon-cog"></i> Settings</a></li>
+          		  <li class="divider"></li>
+          		  <li><a href="#"><i class="icon-flag"></i> Help</a></li>
+        		</ul>
+              </div><!-- tab-pane -->
+              <div class="tab-pane" id="tab3">
+                <ul class="tags clearfix">
+      	    	  <li><a href="#">quote</a></li>
+	        	  <li><a href="#">copyright</a></li>
+	        	  <li><a href="#">brand</a></li>
+	        	  <li><a href="#">tag</a></li>
+	        	  <li><a href="#">design</a></li>
+	        	  <li><a href="#">graphics</a></li>
+	        	  <li><a href="#">battle</a></li>
+	        	  <li><a href="#">envato</a></li>
+		  		</ul>
+              </div><!-- tab-pane -->
+            </div><!-- tab-content -->
+          </div><!-- tabbable -->
+		</div><!-- widget -->
 
-            <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects in Progress
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-          <li><a href="#">Project in Progress 1</a></li>
-          <li><a href="#">Project in Progress 2</a></li>
-          <li><a href="#">Project in Progress 3</a></li> 
-            </ul>
-          </li>
+		<!-- Accordion widget -->
+        <div class="widget well">
+          <h5>Accordion widget</h5>
+		  <p><em>Get base styles and flexible support for collapsible components like accordions and navigation.</em></p>
+      	  <!-- Example accordion -->
+		  <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                  Collapsible Group Item #1
+                </a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">
+                <div class="accordion-inner">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                  Collapsible Group Item #2
+                </a>
+              </div>
+              <div id="collapseTwo" class="accordion-body collapse" style="height: 0px; ">
+                <div class="accordion-inner">
+                  Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                  Collapsible Group Item #3
+                </a>
+              </div>
+              <div id="collapseThree" class="accordion-body in collapse" style="height: auto; ">
+                <div class="accordion-inner">
+                  3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End accordion -->
+		</div><!-- widget -->
+		
+		<!-- Progress bars -->
+        <div class="widget well">
+          <h5>Progress bars</h5>
+          <p>Progress bars use CSS3 gradients, transitions, and animations to achieve all their effects. These features are not supported in IE7-9 or older versions of Firefox.</p>
+          <div class="progress progress-info progress-striped" style="margin-bottom: 9px;">
+            <div class="bar" style="width: 20%">CSS3</div>
+         </div>
+         <div class="progress progress-success progress-striped" style="margin-bottom: 9px;">
+           <div class="bar" style="width: 40%">HTML5</div>
+          </div>
+          <div class="progress progress-warning progress-striped" style="margin-bottom: 9px;">
+            <div class="bar" style="width: 60%">jQuery</div>
+          </div>
+          <div class="progress progress-danger progress-striped active" style="margin-bottom: 0px;">
+            <div class="bar" style="width: 100%">Responsive Design</div>
+          </div>
+        </div><!-- widget -->
 
-        <li><a href="blog.html">Blog</a></li> 
-        <li><a href="#">Contact Me</a></li> 
-      </ul>
-    </div>
+		<!-- Twitter Feed -->
+        <div class="widget well">
+          <h5>Twitter Feed</h5>
+          <div class="tweet"></div>
+          <small><a href="#">View all tweets</a></small>
+        </div><!-- widget -->
+
+		<!-- Flickr Photos -->
+        <div class="widget well">
+          <h5>Flickr Photos</h5>
+		  <ul class="flickr thumbs"></ul>
+          <small><a href="#">View photostream</a></small>
+        </div><!-- widget -->
+
+		<!-- Facebook Recommendations -->
+<!--        <div class="widget well">
+		  <div class="fb-recommendations" data-site="http://themeforest.net/user/ZERGE/" data-app-id="297648427000173" data-height="300" data-header="true" data-colorscheme="dark" data-border-color="#5F636A" data-font="arial"></div>
+        </div> --> <!-- widget -->
+
+		<!-- Facebook Like -->
+<!--        <div class="widget well">
+		  <div class="fb-like-box" data-href="http://www.facebook.com/envato" data-colorscheme="dark" data-show-faces="true" data-border-color="#5F636A" data-stream="false" data-header="true"></div>
+        </div> --> <!-- widget -->
+        
+		<!-- Video Widget -->
+        <div class="widget video well">
+          <h5>Video Widget</h5>
+		  <iframe src="http://player.vimeo.com/video/27643876?title=0&amp;byline=0&amp;portrait=0&amp;color=FFFC00" height="140"></iframe>
+        </div><!-- widget -->
+
+		<!-- Advertising -->
+        <div class="widget well">
+          <h5>Advertising</h5>
+          <ul class="ads clearfix">
+            <li class="ads-std"><a href="http://themeforest.net?ref=zerge"><img src="images/ads/tf_225x104_v2.jpg" alt="" title="Ads"></a></li>
+            <li class="ads-125"><a href="http://themeforest.net?ref=zerge" class="first"><img src="images/ads/3docean-125x125-03-stock-3d-models.jpg" alt="" title="Ads"></a> <a href="http://themeforest.net?ref=zerge"><img src="images/ads/3docean-125x125-06-stock-3d-models.jpg" alt="" title="Ads"></a></li>
+            <li class="ads-std"><a href="http://themeforest.net?ref=zerge"><img src="images/ads/3docean-300x250-09-stock-3d-models.jpg" alt="" title="Ads"></a></li>                        
+  		  </ul>
+        </div><!-- widget -->
+      </div><!-- span3 -->
+	</div><!-- row -->
+
+
+<!-- Footer
+================================================== -->
+  <footer class="footer row">
+    <div class="span3">
+      <div class="logo-footer widget">
+        <h5>Contact Info</h5>
+		<ul id="contact-info" class="clearfix">
+		  <li><i class="icon-map-marker icon-white"></i><address>12345 / Some Street, Portland, USA</address></li>
+		  <li><i class="icon-user icon-white"></i>phone: +1 (44)  123-45-67</li>
+		  <li><i class="icon-headphones icon-white"></i><a href="skype:echo123?call">Skype Me</a></li>
+		  <li><i class="icon-envelope icon-white"></i><a href="mailto:support@color-theme.com">support@color-theme.com</a></li>
+		</ul>
+      </div><!-- logo-footer -->
+    </div><!-- span3 -->
+    
+    <div class="span9 footer-widgets clearfix">
+	  <div class="widget">
+	    <h5>Popular Posts</h5>
+		<ul class="popular-posts">
+		  <li>
+		    <a href="#"><img src="images/blog/widgets/img01-40x40.jpg" alt="" /></a>
+		    <a href="#">Domino Theory</a>
+		    <span class="date">June 24, 2012</span>
+		  </li>
+		  <li>
+		    <a href="#"><img src="images/blog/widgets/img02-40x40.jpg" alt="" /></a>
+		    <a href="#">Crossing Paths</a>
+		    <span class="date">June 22, 2012</span>
+		  </li>
+		  <li>
+		    <a href="#"><img src="images/blog/widgets/img03-40x40.jpg" alt="" /></a>
+		    <a href="#">Corporate Equality Index</a>
+		    <span class="date">May 09, 2012</span>
+		  </li>
+		</ul>
+	  </div><!-- .widget -->
+
+	  <div class="widget">
+	    <h5>Latest Posts</h5>
+		<ul class="latest-posts">
+		  <li>
+		    <a href="#"><img src="images/blog/widgets/img04-40x40.jpg" alt="" /></a>
+		    <a href="#">The Peace Corps</a>
+		    <span class="date">Jule 02, 2012</span>		  
+		  </li>
+		  <li>
+		    <a href="#"><img src="images/blog/widgets/img01-40x40.jpg" alt="" /></a>
+		    <a href="#">Domino Theory</a>
+		    <span class="date">June 24, 2012</span>
+		  </li>
+		  <li>
+		    <a href="#"><img src="images/blog/widgets/img05-40x40.jpg" alt="" /></a>
+		    <a href="#">Flickr Eggs</a>
+		    <span class="date">May 14, 2012</span>
+		  </li>
+		</ul>
+	  </div><!-- .widget -->
+
+	  <div class="widget">
+	    <h5>Flickr Photos</h5>
+	    <ul class="flickr thumbs"></ul>
+	  </div><!-- .widget -->
+	  
+    </div><!-- footer-widgets -->
+  </footer>
+
+  
+  <div id="bottom-panel" class="clearfix">
+  <span>Copyright &copy; 2017 EveryDayKenneth.com</span></div>
   </div>
-</nav>
-
-  </div>
-</div>
-<!-- End Navbar -->
-<div class="row">
-    <div class="col-md-12">
-        <!-- Make the Image responsive later -->
-         <a href="post2.html">
-        <div class="post red">
-            <div class="inner">
-                <h2 class="title">A September in Taipei</h2>
-                <div class="post_info">
-                    <p class="date"><i class="fa fa-calendar-o"></i>
-                    September 6th, 2016</p>
-                    <p class="read_length"><i class=
-                    "fa fa-clock-o"></i>10 minute read</p>
-                </div>
-            </div>
-        </div></a> <a href="post1.html">
-        <div class="post green">
-            <div class="inner">
-                <h2 class="title">This is a an example blog post</h2>
-                <div class="post_info">
-                    <p class="date"><i class="fa fa-calendar-o"></i>
-                    July 20th, 2015</p>
-                    <p class="read_length"><i class=
-                    "fa fa-clock-o"></i> 5 minute read</p>
-                </div>
-            </div>
-        </div></a> <a href="#">
-        <div class="post purple">
-            <div class="inner">
-                <h2 class="title">This is a an example blog post</h2>
-                <div class="post_info">
-                    <p class="date"><i class="fa fa-calendar-o"></i>
-                    July 20th, 2015</p>
-                    <p class="read_length"><i class=
-                    "fa fa-clock-o"></i> 5 minute read</p>
-                </div>
-            </div>
-        </div></a> <a href="#">
-        <div class="post lime_green">
-            <div class="inner">
-                <h2 class="title">This is a an example blog post</h2>
-                <div class="post_info">
-                    <p class="date"><i class="fa fa-calendar-o"></i>
-                    July 20th, 2015</p>
-                    <p class="read_length"><i class=
-                    "fa fa-clock-o"></i> 5 minute read</p>
-                </div>
-            </div>
-        </div></a> <a href="#">
-        <div class="post pink">
-            <div class="inner">
-                <h2 class="title">This is a an example blog post Blah
-                BLeeeeeh Boo...</h2>
-                <div class="post_info">
-                    <p class="date"><i class="fa fa-calendar-o"></i>
-                    July 20th, 2015</p>
-                    <p class="read_length"><i class=
-                    "fa fa-clock-o"></i> 5 minute read</p>
-                </div>
-            </div>
-        </div></a> <a href="#">
-        <div class="post orange">
-            <div class="inner">
-                <h2 class="title">This is a an example blog post</h2>
-                <div class="post_info">
-                    <p class="date"><i class="fa fa-calendar-o"></i>
-                    July 20th, 2015</p>
-                    <p class="read_length"><i class=
-                    "fa fa-clock-o"></i> 5 minute read</p>
-                </div>
-            </div>
-        </div></a> <a href="#">
-        <div class="post yellow">
-            <div class="inner">
-                <h2 class="title">This is a an example blog post</h2>
-                <div class="post_info">
-                    <p class="date"><i class="fa fa-calendar-o"></i>
-                    July 20th, 2015</p>
-                    <p class="read_length"><i class=
-                    "fa fa-clock-o"></i> 5 minute read</p>
-                </div>
-            </div>
-        </div></a> <a href="#">
-        <div class="post blue">
-            <div class="inner">
-                <h2 class="title">林小姐是壞人</h2>
-                <div class="post_info">
-                    <p class="date"><i class="fa fa-calendar-o"></i>
-                    December 12th, 2017</p>
-                    <p class="read_length"><i class=
-                    "fa fa-clock-o"></i> 1+ year read</p>
-                </div>
-            </div>
-        </div></a> 
-    </div>
-</div>
-
-<!-- End Main Content -->
-
-
-<!-- Check Content placement in respect to document divs -->
-<!-- Beginning Footer Content -->
-<div class="footer">
-<div class="row">
-<div class="col-md-12">
-<!--   <div class="container"> -->
-<div class="footerLine">
-<hr>
-</div>
-<div class="footerText">
-  <h3>Follow Me</h3>
-</div>
-<div class="text-center">
-<a onclick="" class="btn btn-social-icon btn-lg btn-facebook"><i class="fa fa-facebook"></i></a>
-<a onclick="" class="btn btn-social-icon btn-lg btn-linkedin"><i class="fa fa-linkedin"></i></a>
-<a onclick="" class="btn btn-social-icon btn-lg btn-instagram"><i class="fa fa-instagram"></i></a>
-<a onclick="" class="btn btn-social-icon btn-lg btn-twitter"><i class="fa fa-twitter"></i></a>
-</div>
-<!-- End of Footer -->
-</div>
+  
+  </div><!-- /container -->
 
 
 
-</body>
+    <!-- Javascripts
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="scripts/jquery.easing.1.3.js"></script>
+	<script src="scripts/superfish.js"></script>    
+    <script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/jquery.tweet.js"></script>
+	<script src="scripts/jflickrfeed.min.js"></script>
+	<script src="scripts/jquery.flexslider-min.js"></script>
+	<script src="scripts/jquery.fitvid.js"></script>
+	<script src="scripts/jquery.prettyPhoto.js"></script>
+	<script src="scripts/jquery.preloader.js"></script>
+
+    <!-- Support CSS3 Media Queries for IE 6-8 -->
+	<script src="scripts/respond.min.js"></script>
+
+	<script>
+	  jQuery.noConflict()(function($){
+		  $('.blog-carousel').flexslider({
+		      animation: "slide",
+  		      controlNav: false,
+		      animationLoop: false,
+		      slideshow: false,
+		      touch: true,
+		      itemWidth: 160,
+		      itemMargin: 5,
+		      asNavFor: '.blog-slider'
+  			});
+   
+  		$('.blog-slider').flexslider({
+    		animation: "slide",
+    		controlNav: false,
+    		animationLoop: false,
+    		slideshow: false,
+ 		    touch: true,
+   			sync: ".blog-carousel"
+  		});
+	  });
+	</script>
+
+	<script src="scripts/custom.js"></script>	
+
+	<!-- For Facebook Social Plugins -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=297648427000173";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- For Images Preloading -->
+	<script type="text/javascript">var runFancy = true;</script>
+	
+    <!--[if IE]>
+    <script type="text/javascript">
+      runFancy = false;
+    </script>
+    <![endif]-->
+    
+    <script type="text/javascript">
+      if (runFancy) {
+        jQuery.noConflict()(function($){
+          $(".view").preloader();
+          });
+        };
+	</script>
+	
+<script src="scripts/typed.js"></script>
+<script src = "scripts/typedJSStrings.js"></script>
+
+  </body>
 </html>
-

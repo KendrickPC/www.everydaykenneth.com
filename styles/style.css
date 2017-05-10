@@ -134,7 +134,7 @@ hr.soften {
 #bottom-panel span { color: white; font-size:10px; float:right; line-height:30px; margin-right:15px; margin-left:15px; }
 #bottom-panel .site-name { float:left; }
 
-.login-button { float:right; font-size:15px; margin-right:15px;}
+.login-button { float:right; font-size:13px; margin-right:15px;}
 .login-button a { padding: 1px; border: 1px solid #ffffff;}
 .login-button::before {
 	/*background: url('../img/ico/inputico.png') 0 0 no-repeat;*/
@@ -525,7 +525,7 @@ border-top-left-radius: 5px;
 .projects-meta .year,
 .post-date-meta .month,
 .post-date-meta .date,
-.projects-meta .year
+.post-date-meta .year
 	{ display:block; color:#555; text-transform:uppercase; font-weight:bold; text-align:center; }
 
 .projects-meta .month,

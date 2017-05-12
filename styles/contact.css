@@ -1,0 +1,20 @@
+.form-container {
+  background: #000000;
+  margin: 0 auto;
+  margin-top: 16px;
+  padding: 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.12);
+  border-radius: 10px 10px 10px #000000;
+}
+
+.gutter {
+  height: 32px;
+}
+
+
+@media (max-width: 767px) {
+  .form-container {
+    margin: 0;
+    padding: 16px;
+  }
+}

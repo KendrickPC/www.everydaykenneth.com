@@ -748,7 +748,7 @@ border-top-left-radius: 5px;
 
 .widget .popular-posts li img, .widget .latest-posts li img { float: left; margin: 0 10px 2px 0; margin: 0 10px 2px 0; }
 .widget .popular-posts li, .widget .latest-posts li {margin: 0 0 10px 0; padding: 0 0 10px 0; min-height: 40px;}
-.widget .popular-posts .date, .widget .latest-posts .date { color:#888; display:block; }
+.widget .popular-posts .date, .widget .latest-posts .date { color:#fff; display:block; }
 .widget .popular-posts li:last-child { margin-bottom:0; padding-bottom:0; }
 
 .logo-footer.widget { background-color:#3b82b5; padding: 30px 15px; float: none; width: auto; margin: 0;}
